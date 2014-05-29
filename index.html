@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>HelloWorld</title>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>talisberg-hack</title>
 
-    <!-- TODO : Common API -->
-    <script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/Widget.js"></script>
-    <script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/TVKeyValue.js"></script>
+		<!-- TODO : Common API -->
+		<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/Widget.js"></script>
+		<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/TVKeyValue.js"></script>
 
-    <!-- TODO : Javascript code -->
-    <script language="javascript" type="text/javascript" src="app/javascript/Main.js"></script>
+		<!-- TODO : Javascript code -->
+		<script language="javascript" type="text/javascript" src="app/javascript/Main.js"></script>
+		<script language="javascript" type="text/javascript" src="app/vendor/jquery/dist/jquery.min.js"></script>
+		<script language="javascript" type="text/javascript" src="app/vendor/semantic-ui/build/packaged/javascript/semantic.min.js"></script>
 
-    <!-- TODO : Style sheets code -->
-    <link rel="stylesheet" href="app/stylesheets/Main.css" type="text/css">
+		<!-- TODO : Style sheets code -->
+		<link rel="stylesheet" href="app/stylesheets/Main.css" type="text/css">
+		<link rel="stylesheet" href="app/vendor/semantic-ui/build/packaged/css/semantic.min.css" type="text/css">
 
-    <!-- TODO: Plugins -->
+		<!-- TODO: Plugins -->
 
-</head>
+	</head>
 
-<body onload="Main.onLoad();" onunload="Main.onUnload();">
+	<body onload="Main.onLoad();" onunload="Main.onUnload();">
 
-<marquee style="color:white;" behavior="scroll" direction="left">Your scrolling text goes here</marquee>
+		<!-- Dummy anchor as focus for key events -->
+		<a href="javascript:void(0);" id="anchor" onkeydown="Main.keyDown();"></a>
 
-<!-- Dummy anchor as focus for key events -->
-<a href="javascript:void(0);" id="anchor" onkeydown="Main.keyDown();"></a>
-
-<!-- TODO: your code here -->
-</body>
+		<!-- TODO: your code here -->
+	</body>
 </html>

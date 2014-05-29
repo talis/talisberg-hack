@@ -1,0 +1,20 @@
+{
+  "name": "talisberg-hack",
+  "version": "0.1",
+  "homepage": "https://github.com/talis/talisberg-hack",
+  "moduleType": [
+    "es6"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "semantic-ui": "~0.17.0"
+  }
+}

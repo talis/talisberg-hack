@@ -9,9 +9,9 @@
 		<script type="text/javascript" language="javascript" src="$MANAGER_WIDGET/Common/API/TVKeyValue.js"></script>
 
 		<!-- TODO : Javascript code -->
-		<script language="javascript" type="text/javascript" src="app/javascript/Main.js"></script>
 		<script language="javascript" type="text/javascript" src="app/vendor/jquery/dist/jquery.min.js"></script>
 		<script language="javascript" type="text/javascript" src="app/vendor/semantic-ui/build/packaged/javascript/semantic.min.js"></script>
+		<script language="javascript" type="text/javascript" src="app/javascript/Main.js"></script>
 
 		<!-- TODO : Style sheets code -->
 		<link rel="stylesheet" href="app/stylesheets/Main.css" type="text/css">
@@ -23,9 +23,25 @@
 
 	<body onload="Main.onLoad();" onunload="Main.onUnload();">
 
-		<!-- Dummy anchor as focus for key events -->
-		<a href="javascript:void(0);" id="anchor" onkeydown="Main.keyDown();"></a>
-
-		<!-- TODO: your code here -->
+		<!-- Header -->
+		<div class="ui page grid">
+			<div class="column">
+				<h1 class="ui header">Talisberg</h1>
+			</div>
+		</div>
+		
+		<!-- Main image -->
+		<div class="ui page grid">
+			<div class="column">
+				<img id="image" src="app/images/tvlogo.png">
+			</div>
+		</div>
+		
+		<!-- News ticker -->
+		<div class="ui page grid">
+			<div class="column">
+				<marquee id="ticker">Some important information</marquee>
+			</div>
+		</div>
 	</body>
 </html>

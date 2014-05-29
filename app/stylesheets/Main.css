@@ -10,4 +10,11 @@ body
 {
     width: 960px;
     height: 540px;
+    background:#00acba;
+    color:#fff;
+}
+
+#image{
+	width:100%;
+	max-width:100%;
 }

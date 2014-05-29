@@ -18,7 +18,7 @@
     <childlock itemtype="boolean">n</childlock>
     <videomute itemtype="boolean">n</videomute>
     <dcont itemtype="boolean">y</dcont>
-    <widgetname itemtype="string">HelloWorld</widgetname>
+    <widgetname itemtype="string">Talisberg</widgetname>
     <description itemtype="string"></description>
     <width itemtype="string">960</width>
     <height itemtype="string">540</height>
